@@ -33,7 +33,7 @@ class Perceptron:
         return value_found
 
 
-    # Le o arquivo e salva os valores na variavel nodes
+    # Le o arquivo e salva os valores na variavel training_nodes
     def read(self, filename):
         with open(filename, "r") as f:
             dataset = f.read().splitlines()
