@@ -66,10 +66,7 @@ def main():
     perceptron.train()
 
     # Para verificar os pesos do perceptron
-    '''
-    print(perceptron.weight1)
-    print(perceptron.weight2)
-    '''
+    print(perceptron.weights)
     
     # Aqui sao valores arbitrarios usados para ver se o perceptron foi
     # treinado bem
