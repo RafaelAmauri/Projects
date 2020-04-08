@@ -1,0 +1,7 @@
+Usage:
+
+./brightness.sh $1, where $1 is a number.
+
+Default value for Xorg is 1, but you can increase it to whatever number you want, with or withour decimals.
+
+0 is brightness turned off.

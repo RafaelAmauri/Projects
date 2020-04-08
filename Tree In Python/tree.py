@@ -1,5 +1,7 @@
 import os
 
+# File class made for possible implementation of a cat-like function, but was discontinnued
+'''
 class File:
     def __init__(self, path_to="./"):
         self.path_to = path_to
@@ -13,6 +15,7 @@ class File:
         with open(self.path_to, "r") as f:
             print(f.read())
 
+'''
 
 class Dir:
     def __init__(self, path="./"):
@@ -34,7 +37,7 @@ class Dir:
                 print(f"Found file: {self.path+f}")
             else:
                 print(f"\tFound directory: {self.path+f}  -  Opening recursion to explore...")
-                new_dir = Dir(self.path+"/"+f)
+                new_dir = Dir(self.path+f+"/")
                 new_dir.explore()
                 print(f"\tRecursion ended for {self.path+f}")
 
