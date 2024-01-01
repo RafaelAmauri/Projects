@@ -1,58 +1,40 @@
 import os
-
-# File class made for possible implementation of a cat-like function, but was discontinnued
-'''
-class File:
-    def __init__(self, path_to="./"):
-        self.path_to = path_to
-    
-    
-    def __str__(self):
-        return f"Path to file is: {self.path_to}"
-    
-
-    def get_contents(self):
-        with open(self.path_to, "r") as f:
-            print(f.read())
-
-'''
-
-class Dir:
-    def __init__(self, path="./"):
-        self.path  = path
-        try:
-            self.contents = os.listdir(path)
-        except NotADirectoryError:
-            print(f"Error: is {path} a directory? If not, add an extension to the file")
-            exit(-1)
+from argparse import ArgumentParser
 
 
-    def __str__(self):
-        return f"Path is {self.path_to} and contents are {self.contents}"
+def make_parser():
+    parser = ArgumentParser(description="Define the parameters")
+
+    parser.add_argument('-d', type=str, required=False, 
+                        help='The root directory where the exploration starts. If unspecified, will use ./'
+                        )
+
+    parser.add_argument('-maxdepth', type=int, required=False, 
+                        help='How many directory deep the program will descend.'
+                        )
+
+    parser.set_defaults(d='./', maxdepth=-1)
+
+    return parser
 
 
-    def explore(self):
-        for f in self.contents:
-            if "." in f:
-                print(f"Found file: {self.path+f}")
-            else:
-                print(f"\tFound directory: {self.path+f}  -  Opening recursion to explore...")
-                new_dir = Dir(self.path+f+"/")
-                new_dir.explore()
-                print(f"\tRecursion ended for {self.path+f}")
+def listDir(currentDir, currentDepth=0):
+    isSubDir = 1 if currentDepth != 0 else 0
+    subFiles = [os.path.join(currentDir, file) for file in os.listdir(currentDir)]
+
+    for sub in subFiles:
+        print(f"❘{'――'*currentDepth}{'❘'*isSubDir} {sub.split('/')[-1]}")
+            
+        if os.path.isdir(sub):
+            listDir(sub, currentDepth+1)
 
 
 def main():
-    path    = os.getcwd()
-    change = input(f"The current working directory is \"{path}\". Do you want to change?[y/n]\n")
+    args     = make_parser().parse_args()
+    MAXDEPTH = args.maxdepth
+    ROOT     = args.d
 
-    if change.lower() == "y":
-        path = input("What is the path to the directory? Remember to start at root(/)\n")
-        if path[-1] != "/":
-            path += "/"
-
-    directory = Dir(path)
-    directory.explore()
+    listDir(ROOT)
 
 if __name__ == '__main__':
     main()
