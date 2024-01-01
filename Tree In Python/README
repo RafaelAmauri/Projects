@@ -1,6 +1,4 @@
-Usage: python3 tree.py
+Usage: python3 tree.py [-h] [-d D] [-maxdepth MAXDEPTH]
 
-This simple python script opens a given directory and lists its contents.
-It opens a new recursion for each directory found, and closes the recursion after listing every file and directory inside the openned one.
-
-Everything that has a "." in the name is judged as a file, and everything that doesn't is judged as a directory.
+This python script opens a given directory and lists its contents in a tree-like fashion. The idea behind this project
+is to avoid using recursion for the implementation and being as memory-efficient as possible.
