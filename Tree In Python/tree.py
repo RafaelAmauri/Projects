@@ -18,15 +18,26 @@ def make_parser():
     return parser
 
 
-def listDir(currentDir, currentDepth=0):
-    isSubDir = 1 if currentDepth != 0 else 0
-    subFiles = [os.path.join(currentDir, file) for file in os.listdir(currentDir)]
+def listDir(root, maxDepth):
+    stack = [ root ]
+    level = [ 0 ]
+    
+    # Iteratively listing directories
+    while stack:
+        currentFile  = stack.pop()
+        currentDepth = level.pop()
 
-    for sub in subFiles:
-        print(f"❘{'――'*currentDepth}{'❘'*isSubDir} {sub.split('/')[-1]}")
+        if maxDepth != -1 and currentDepth > maxDepth:
+            continue
+
+        print(f"❘{'――'*currentDepth}| {currentFile.split('/')[-1]}")
+
+        if os.path.isdir(currentFile):
+            subFiles = [os.path.join(currentFile, file) for file in os.listdir(currentFile)]
             
-        if os.path.isdir(sub):
-            listDir(sub, currentDepth+1)
+            for sub in subFiles:
+                stack.append(sub)
+                level.append(currentDepth+1)
 
 
 def main():
@@ -34,7 +45,8 @@ def main():
     MAXDEPTH = args.maxdepth
     ROOT     = args.d
 
-    listDir(ROOT)
+    listDir(ROOT, MAXDEPTH)
+
 
 if __name__ == '__main__':
     main()
