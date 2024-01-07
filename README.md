@@ -15,6 +15,9 @@ This is a project that aims to provide my own implementation of the tree command
 
 * [Github Repository](https://github.com/RafaelAmauri/Tree)
 
+### Demo
+![Demo](demos/tree.gif)
+
 ## Kernel Updater
 
 This project asks you for a version of the Linux Kernel and automatically compiles and installs the kernel for you. It allows for some customization such as name of the kernel and compile flags.
