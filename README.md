@@ -2,12 +2,16 @@
 All these projects were made by me, for learning a new concept or improving some skill I might have.
 You can use the code in any way you may want to, with or without crediting me. The contents are 100% public.
 
-## Python Perceptron
+## Image Studio
 
-This is a framework-less and library-less implementation of a SLP, or a Single-Layer Perceptron.
-It was made for the task of classification and works very well given it only has a single layer.
+This is pet project of mine. In this repo I try to code some different and interesting image processing algorithms by hand. The main goal is to avoid using already existing image processing libraries and to do everything as close to pure python as possible.
 
-* [Github Repository](https://github.com/RafaelAmauri/Perceptron)
+* [Github Repository](https://github.com/RafaelAmauri/Image-Studio)
+
+The following techniques have been implemented:
+
+* Dithering
+* Quantization
 
 ## Tree
 
