@@ -8,10 +8,14 @@ This is pet project of mine. In this repo I try to code some different and inter
 
 * [Github Repository](https://github.com/RafaelAmauri/Image-Studio)
 
-The following techniques have been implemented:
+Some cool implementations that I got going so far:
 
-* Dithering
-* Quantization
+| **Category**         | **Original Image**                                          | **Quantized  Image (4 Colors)**                                   | **Quantized Image (4 Colors) + Dithering**                                    |
+|----------------------|----------------------------------------------------|----------------------------------------------------|-----------------------------------------------------|
+| **Dog (Grayscale)**  | ![dog_g](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_g.png)     | ![dog_g_q4](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_g_q4.png)             | ![dog_g_q4_d](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_g_q4_d.png)            |
+| **Dog (RGB)**     | ![dog_rgb](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_rgb.png)       | ![dog_rgb_q4](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_rgb_q4.png)           | ![dog_rgb_q4_d](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_rgb_q4_d.png)         |
+| **Duck (Grayscale)**      | ![duck_g](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_g.png)           | ![duck_g_q4](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_g_q4.png)                   | ![duck_g_q4_d](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_g_q4_d.png)                  |
+| **Duck (RGB)**      | ![duck_rgb](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_rgb.png)          | ![duck_rgb_q4](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_rgb_q4.png)            | ![duck_rgb_q4_d](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_rgb_q4_d.png)          |
 
 ## Tree
 
