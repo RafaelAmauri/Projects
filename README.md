@@ -4,11 +4,11 @@ You can use the code in any way you may want to, with or without crediting me. T
 
 ## Image Studio
 
-This is pet project of mine. In this repo I try to code some interesting image processing algorithms by hand. The main goal is to avoid using already existing image processing libraries and to do everything as close to pure python as possible.
+Image Studio is pet project of mine, perhaps my favorite out of all my personal projects. In this repo I showcase some interesting image processing algorithms and code them entirely by hand. The main goal of Image Studio is to learn to code these algorithms by myself without using already existing image processing libraries.
 
 * [Github Repository](https://github.com/RafaelAmauri/Image-Studio)
 
-Some cool algorithms that I got going so far:
+Some cool algorithms that I've already implemented:
 
 * Quantization
 * Dithering
@@ -24,7 +24,7 @@ Some cool algorithms that I got going so far:
 
 ## Tree
 
-This is a project that aims to provide my own implementation of the tree command that can be found in operating systems. The main goal is to have a memory-efficient implementation and avoid using recursion by all means.
+Tree is a project that aims to provide my own implementation of the tree command that can be found in different operating systems. The main goal is have a working implementation that doesn't use any recursion.
 
 * [Github Repository](https://github.com/RafaelAmauri/Tree)
 
