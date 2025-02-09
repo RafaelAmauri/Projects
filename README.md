@@ -4,7 +4,7 @@ You can use the code in any way you may want to, with or without crediting me. T
 
 ## Image Studio
 
-This is pet project of mine. In this repo I try to code some different and interesting image processing algorithms by hand. The main goal is to avoid using already existing image processing libraries and to do everything as close to pure python as possible.
+This is pet project of mine. In this repo I try to code some interesting image processing algorithms by hand. The main goal is to avoid using already existing image processing libraries and to do everything as close to pure python as possible.
 
 * [Github Repository](https://github.com/RafaelAmauri/Image-Studio)
 
