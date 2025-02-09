@@ -1,5 +1,5 @@
 # Projects
-All these projects were made by me, for learning a new concept or improving some skill I might have.
+All these projects were made by me, either for learning a new concept or just for fun.
 You can use the code in any way you may want to, with or without crediting me. The contents are 100% public.
 
 ## Image Studio
