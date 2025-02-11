@@ -6,7 +6,7 @@ You can use the code in any way you may want to, with or without crediting me. T
 
 Image Studio is pet project of mine, perhaps my favorite out of all my personal projects. In this repo I showcase some interesting image processing algorithms and code them entirely by hand. The main goal of Image Studio is to learn to code these algorithms by myself without using already existing image processing libraries.
 
-* [Github Repository](https://github.com/RafaelAmauri/Image-Studio)
+* [Image Studio Repository](https://github.com/RafaelAmauri/Image-Studio)
 
 Some cool algorithms that I've already implemented:
 
@@ -26,7 +26,7 @@ Some cool algorithms that I've already implemented:
 
 Tree is a project that aims to provide my own implementation of the tree command that can be found in different operating systems. The main goal is have a working implementation that doesn't use any recursion.
 
-* [Github Repository](https://github.com/RafaelAmauri/Tree)
+* [Tree Repository](https://github.com/RafaelAmauri/Tree)
 
 ### Demo
 ![Demo](demos/tree.gif)
@@ -35,10 +35,10 @@ Tree is a project that aims to provide my own implementation of the tree command
 
 This project asks you for a version of the Linux Kernel and automatically compiles and installs the kernel for you. It allows for some customization such as name of the kernel and compile flags.
 
-* [Github Repository](https://github.com/RafaelAmauri/Kernel-Updater)
+* [Kernel Updater Repository](https://github.com/RafaelAmauri/Kernel-Updater)
 
 ## Qt Calculator
 
 One of my first tries at developing a GUI-centered application. This is a simple calculator that uses Qt to help me learn how to write GUI software.
 
-* [Github Repository](https://github.com/RafaelAmauri/Qt-Calculator)
+* [Qt Calculator Repository](https://github.com/RafaelAmauri/Qt-Calculator)
