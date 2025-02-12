@@ -12,13 +12,23 @@ Some cool algorithms that I've already implemented:
 
 * Quantization
 * Dithering
+* Color palette conversion
 
-| **Category**         | **Original Image**                                          | **Quantized  Image (4 Colors)**                                   | **Quantized Image (4 Colors) + Dithering**                                    |
-|----------------------|----------------------------------------------------|----------------------------------------------------|-----------------------------------------------------|
-| **Dog (Grayscale)**  | ![dog_g](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_g.png)     | ![dog_g_q4](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_g_q4.png)             | ![dog_g_q4_d](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_g_q4_d.png)            |
-| **Dog (RGB)**     | ![dog_rgb](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_rgb.png)       | ![dog_rgb_q4](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_rgb_q4.png)           | ![dog_rgb_q4_d](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/dog_rgb_q4_d.png)         |
-| **Duck (Grayscale)**      | ![duck_g](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_g.png)           | ![duck_g_q4](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_g_q4.png)                   | ![duck_g_q4_d](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_g_q4_d.png)                  |
-| **Duck (RGB)**      | ![duck_rgb](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_rgb.png)          | ![duck_rgb_q4](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_rgb_q4.png)            | ![duck_rgb_q4_d](https://github.com/RafaelAmauri/Image-Studio/blob/5d746f94c45de5d8b6ddf515e5b05ceabe24cc48/assets/duck_rgb_q4_d.png)          |
+Some cool examples of the color palette conversion that I've implemented:
+
+
+**Original Image (Credit to [Keith Griego](https://www.artstation.com/keithgriego) on Artstation) - 16 Million Colors** 
+
+![Anime girl - original](https://github.com/RafaelAmauri/Image-Studio/blob/afd09437d5419ebd5ba1877fb0bafb10b6bf8be8/assets/animegirl_original.png)
+
+**Cyan Color Palette - 32 Colors**
+
+![Anime girl - cyan](https://github.com/RafaelAmauri/Image-Studio/blob/afd09437d5419ebd5ba1877fb0bafb10b6bf8be8/assets/animegirl_cyan.png)
+
+**Green Color Palette - 32 Colors**
+
+![Anime girl - green](https://github.com/RafaelAmauri/Image-Studio/blob/afd09437d5419ebd5ba1877fb0bafb10b6bf8be8/assets/animegirl_green.png)
+
 
 
 
